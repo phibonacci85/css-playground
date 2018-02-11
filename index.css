@@ -1,0 +1,65 @@
+body {
+  background: white;
+}
+
+.title {
+  color: darkgrey;
+  text-align: center;
+  font-size: 2rem;
+  font-family: SansSerif, sans-serif;
+}
+
+.canvas {
+  background: white;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 3px 3px 15px #999999;
+  animation-name: nothing;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+}
+
+.a {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  margin: auto;
+}
+
+@keyframes nothing {
+  from {
+
+  }
+  to {
+
+  }
+}
+
+@keyframes blur {
+  from {
+    box-shadow: 10px 10px 0px 10px black;
+  }
+  to {
+    box-shadow: 10px 10px 50px 10px black;
+  }
+}
+
+@keyframes spread {
+  from {
+    box-shadow: 10px 10px 10px 0px black;
+  }
+  to {
+    box-shadow: 10px 10px 10px 50px black;
+  }
+}
+
+@keyframes slide {
+  from {
+    box-shadow: -10px -10px 10px 10px black;
+  }
+  to {
+    box-shadow: 10px 10px 10px 10px black;
+  }
+}

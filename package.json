@@ -1,0 +1,27 @@
+{
+  "name": "css-playground",
+  "version": "1.0.0",
+  "description": "A project for css demos and experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phibonacci85/css-playground.git"
+  },
+  "keywords": [
+    "css",
+    "test",
+    "demo",
+    "experiment"
+  ],
+  "author": "John Baker <phibonacci85@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phibonacci85/css-playground/issues"
+  },
+  "homepage": "https://github.com/phibonacci85/css-playground#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}

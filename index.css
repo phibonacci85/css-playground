@@ -1,13 +1,11 @@
 body {
-  background: white;
-}
+  background: white; }
 
 .title {
   color: darkgrey;
   text-align: center;
   font-size: 2rem;
-  font-family: SansSerif, sans-serif;
-}
+  font-family: SansSerif, sans-serif; }
 
 .canvas {
   background: white;
@@ -18,48 +16,28 @@ body {
   animation-name: nothing;
   animation-duration: 1s;
   animation-direction: alternate;
-  animation-iteration-count: 1;
-}
+  animation-iteration-count: 1; }
 
 .a {
   width: 20px;
   height: 20px;
   background: blue;
-  margin: auto;
-}
-
-@keyframes nothing {
-  from {
-
-  }
-  to {
-
-  }
-}
+  margin: auto; }
 
 @keyframes blur {
   from {
-    box-shadow: 10px 10px 0px 10px black;
-  }
+    box-shadow: 10px 10px 0px 10px black; }
   to {
-    box-shadow: 10px 10px 50px 10px black;
-  }
-}
-
+    box-shadow: 10px 10px 50px 10px black; } }
 @keyframes spread {
   from {
-    box-shadow: 10px 10px 10px 0px black;
-  }
+    box-shadow: 10px 10px 10px 0px black; }
   to {
-    box-shadow: 10px 10px 10px 50px black;
-  }
-}
-
+    box-shadow: 10px 10px 10px 50px black; } }
 @keyframes slide {
   from {
-    box-shadow: -10px -10px 10px 10px black;
-  }
+    box-shadow: -10px -10px 10px 10px black; }
   to {
-    box-shadow: 10px 10px 10px 10px black;
-  }
-}
+    box-shadow: 10px 10px 10px 10px black; } }
+
+/*# sourceMappingURL=index.css.map */
